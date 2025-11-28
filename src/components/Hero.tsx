@@ -1,4 +1,4 @@
-import { Scale } from 'lucide-react';
+import { Gavel } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-6">
-            <Scale className="w-12 h-12 text-black" />
+            <Gavel className="w-12 h-12 text-black" />
           </div>
           <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3 tracking-tight whitespace-nowrap">
             EESHWAA CHOLA DEVAN GEETHA

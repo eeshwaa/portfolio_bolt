@@ -1,4 +1,4 @@
-import { FileText } from 'lucide-react';
+import { ScrollText } from 'lucide-react';
 
 const publications = [
   {
@@ -44,7 +44,7 @@ export default function Publications() {
               className="bg-white border border-gray-300 p-5 hover:border-black transition-all duration-300 shadow-sm"
             >
               <div className="flex items-start gap-3">
-                <FileText className="w-5 h-5 text-black flex-shrink-0 mt-1" />
+                <ScrollText className="w-5 h-5 text-black flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-base font-semibold text-black mb-2">{pub.title}</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">{pub.venue}</p>

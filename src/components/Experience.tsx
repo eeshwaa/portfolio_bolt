@@ -1,4 +1,4 @@
-import { Briefcase } from 'lucide-react';
+import { Building2 } from 'lucide-react';
 
 const experiences = [
   {
@@ -84,7 +84,7 @@ export default function Experience() {
             className="bg-white border border-gray-300 p-6 shadow-sm"
           >
             <div className="flex items-start gap-3 mb-4">
-              <Briefcase className="w-5 h-5 text-black flex-shrink-0 mt-1" />
+              <Building2 className="w-5 h-5 text-black flex-shrink-0 mt-1" />
               <div>
                 <h3 className="text-lg font-semibold text-black">{businessProject.title}</h3>
                 <p className="text-base text-gray-700 font-medium">{businessProject.company}</p>
@@ -110,7 +110,7 @@ export default function Experience() {
               className="bg-white border border-gray-300 p-6 shadow-sm"
             >
               <div className="flex items-start gap-3 mb-4">
-                <Briefcase className="w-5 h-5 text-black flex-shrink-0 mt-1" />
+                <Building2 className="w-5 h-5 text-black flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="text-lg font-semibold text-black">{exp.title}</h3>
                   <p className="text-base text-gray-700 font-medium">{exp.company}</p>

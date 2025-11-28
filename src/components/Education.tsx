@@ -1,4 +1,4 @@
-import { GraduationCap, Award, BadgeCheck } from 'lucide-react';
+import { BookOpen, Trophy, Shield } from 'lucide-react';
 
 const education = [
   {
@@ -41,7 +41,7 @@ export default function Education() {
               key={index}
               className="bg-gray-50 p-5 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
             >
-              <GraduationCap className="w-8 h-8 text-black mb-3" />
+              <BookOpen className="w-8 h-8 text-black mb-3" />
               <h3 className="text-base font-semibold text-black mb-2">{edu.degree}</h3>
               <p className="text-gray-700 text-sm mb-1">{edu.institution}</p>
               <p className="text-xs text-gray-500 uppercase tracking-wide">{edu.period}</p>
@@ -61,7 +61,7 @@ export default function Education() {
               key={index}
               className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
             >
-              <BadgeCheck className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
+              <Shield className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{certification}</p>
             </div>
           ))}
@@ -74,7 +74,7 @@ export default function Education() {
               key={index}
               className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
             >
-              <Award className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
+              <Trophy className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{achievement}</p>
             </div>
           ))}

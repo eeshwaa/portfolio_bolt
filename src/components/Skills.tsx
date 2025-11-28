@@ -1,4 +1,4 @@
-import { CheckCircle2 } from 'lucide-react';
+import { Scale } from 'lucide-react';
 
 const skills = [
   'Legal Research & Drafting',
@@ -23,7 +23,7 @@ export default function Skills() {
               key={index}
               className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
             >
-              <CheckCircle2 className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
+              <Scale className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <span className="text-gray-900 text-sm font-medium">{skill}</span>
             </div>
           ))}
