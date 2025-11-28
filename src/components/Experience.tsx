@@ -74,11 +74,11 @@ export default function Experience() {
   return (
     <section id="experience" className="py-16 px-6 bg-transparent border-b border-slate-200/50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Professional Experience</h2>
-        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Professional Experience</h2>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
 
         <div className="mb-12">
-          <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2">Business Projects</h3>
+          <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Business Projects</h3>
           <div
             key="project"
             className="bg-white border border-gray-300 p-6 shadow-sm"
@@ -102,7 +102,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2">Employment History</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Employment History</h3>
         <div className="space-y-6">
           {otherExperiences.map((exp, index) => (
             <div

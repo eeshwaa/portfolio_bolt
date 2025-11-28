@@ -4,8 +4,8 @@ export default function Contact() {
   return (
     <section id="contact" className="py-16 px-6 bg-transparent text-black border-b border-slate-200/50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Contact Information</h2>
-        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Contact Information</h2>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
         <div className="grid md:grid-cols-2 gap-4">
           <a
             href="mailto:eeshwaacholadevangeetha@gmail.com"

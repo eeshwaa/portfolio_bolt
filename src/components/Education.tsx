@@ -43,8 +43,8 @@ export default function Education() {
   return (
     <section id="education" className="py-16 px-6 bg-transparent border-b border-slate-200/50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Education & Qualifications</h2>
-        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Education & Qualifications</h2>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
         <div className="grid md:grid-cols-3 gap-4 mb-12">
           {education.map((edu, index) => (
             <div
@@ -64,7 +64,7 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">International Mobility Program</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">International Mobility Program</h3>
         <div className="space-y-3 mb-12">
           {internationalMobility.map((program, index) => (
             <div
@@ -87,7 +87,7 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">Certifications</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Certifications</h3>
         <div className="space-y-3 mb-12">
           {certifications.map((certification, index) => (
             <div
@@ -100,7 +100,7 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">Achievements</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Achievements</h3>
         <div className="space-y-3">
           {achievements.map((achievement, index) => (
             <div
