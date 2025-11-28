@@ -77,7 +77,7 @@ export default function Experience() {
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Professional Experience</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
 
-        <div className="mb-12">
+        <div className="mb-12 animate-fade-in animate-delay-300">
           <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Business Projects</h3>
           <div
             key="project"
@@ -103,7 +103,7 @@ export default function Experience() {
         </div>
 
         <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Employment History</h3>
-        <div className="space-y-6">
+        <div className="space-y-6 animate-fade-in animate-delay-400">
           {otherExperiences.map((exp, index) => (
             <div
               key={index}

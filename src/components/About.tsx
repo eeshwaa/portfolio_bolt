@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Professional Profile</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-8 animate-fade-in-up animate-delay-100"></div>
-        <div className="bg-white/80 backdrop-blur-sm p-8 border border-slate-300/50 shadow-lg rounded-lg">
+        <div className="bg-white/80 backdrop-blur-sm p-8 border border-slate-300/50 shadow-lg rounded-lg animate-fade-in animate-delay-200">
           <p className="text-gray-800 leading-loose text-base text-justify">
             A results-driven legal professional with experience in litigation, corporate compliance,
             ADR, and immigration research across India and Canada. Skilled in legal drafting, negotiation,

@@ -17,7 +17,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Areas of Expertise</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
-        <div className="grid md:grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-2 gap-3 animate-fade-in animate-delay-200">
           {skills.map((skill, index) => (
             <div
               key={index}
