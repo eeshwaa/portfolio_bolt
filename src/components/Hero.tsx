@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3 tracking-tight whitespace-nowrap">
-            EESHWAA CHOLA DEVAN GEETHA
+            EESHWAA CHOLADEVAN GEETHA
           </h1>
           <div className="h-px w-32 bg-amber-500 mx-auto mb-4"></div>
           <p className="text-lg md:text-xl text-amber-400 font-light uppercase tracking-widest">
