@@ -19,7 +19,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/eeshwaa-chola-devangeetha-06b1a2215/"
+            href="https://www.linkedin.com/in/eeshwaa-choladevan-052b831b9/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-5 bg-white/70 backdrop-blur-sm hover:bg-white transition-all duration-300 border border-slate-300/50 hover:border-amber-600 hover:shadow-md rounded-lg"
