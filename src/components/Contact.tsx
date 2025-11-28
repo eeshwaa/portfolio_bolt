@@ -34,7 +34,7 @@ export default function Contact() {
       </div>
 
       <div className="mt-12 pt-6 border-t border-slate-300 text-center">
-        <p className="text-gray-600 text-xs uppercase tracking-wider">© 2025 Eeshwaa Choladevan Geetha. All rights reserved.</p>
+        <p className="text-gray-600 text-xs uppercase tracking-wider">© 2025 Eeshwaa.C.G. All rights reserved.</p>
       </div>
     </section>
   );
