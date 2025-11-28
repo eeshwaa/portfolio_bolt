@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Contact Information</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
-        <div className="grid md:grid-cols-2 gap-4 animate-fade-in animate-delay-200">
+        <div className="grid sm:grid-cols-2 gap-4 animate-fade-in animate-delay-200">
           <a
             href="mailto:eeshwaacholadevangeetha@gmail.com"
             className="flex items-center gap-4 p-5 bg-white/70 backdrop-blur-sm hover:bg-white transition-all duration-300 border border-slate-300/50 hover:border-amber-600 hover:shadow-md rounded-lg"

@@ -81,7 +81,7 @@ export default function Experience() {
           <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Business Projects</h3>
           <div
             key="project"
-            className="bg-white border border-gray-300 p-6 shadow-sm"
+            className="bg-white border border-gray-300 p-4 sm:p-6 shadow-sm"
           >
             <div className="flex items-start gap-3 mb-4">
               <Building2 className="w-5 h-5 text-black flex-shrink-0 mt-1" />
@@ -107,7 +107,7 @@ export default function Experience() {
           {otherExperiences.map((exp, index) => (
             <div
               key={index}
-              className="bg-white/80 backdrop-blur-sm border border-slate-300/50 p-6 shadow-lg rounded-lg hover:shadow-xl transition-all duration-300"
+              className="bg-white/80 backdrop-blur-sm border border-slate-300/50 p-4 sm:p-6 shadow-lg rounded-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-start gap-3 mb-4">
                 <Building2 className="w-5 h-5 text-black flex-shrink-0 mt-1" />

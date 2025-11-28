@@ -45,7 +45,7 @@ export default function Education() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Education & Qualifications</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
-        <div className="grid md:grid-cols-3 gap-4 mb-12 animate-fade-in animate-delay-200">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12 animate-fade-in animate-delay-200">
           {education.map((edu, index) => (
             <div
               key={index}
