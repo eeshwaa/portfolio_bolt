@@ -1,4 +1,4 @@
-import { BookOpen, Trophy, Shield } from 'lucide-react';
+import { BookOpen, Trophy, Shield, Globe } from 'lucide-react';
 
 const education = [
   {
@@ -16,6 +16,16 @@ const education = [
     degree: 'Victimology',
     institution: 'Humber College, Canada',
     period: '2025 - Present'
+  }
+];
+
+const internationalMobility = [
+  {
+    program: 'International Mobility Program',
+    institution: 'UNIS Grupo Educational, FUNDAÇÃO DE ENSINO E PESQUISA DO SUL DE MINAS',
+    location: 'Brazil',
+    period: '2021 - 2022',
+    score: '100'
   }
 ];
 
@@ -50,6 +60,29 @@ export default function Education() {
                   <p className="text-gray-900 font-medium text-xs">{edu.highlight}</p>
                 </div>
               )}
+            </div>
+          ))}
+        </div>
+
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">International Mobility Program</h3>
+        <div className="space-y-3 mb-12">
+          {internationalMobility.map((program, index) => (
+            <div
+              key={index}
+              className="bg-slate-50 p-5 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
+            >
+              <div className="flex items-start gap-3">
+                <Globe className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+                <div>
+                  <h4 className="text-base font-semibold text-black mb-2">{program.program}</h4>
+                  <p className="text-gray-700 text-sm mb-1">{program.institution}</p>
+                  <p className="text-gray-700 text-sm mb-1">{program.location}</p>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">{program.period}</p>
+                  <div className="mt-3 pt-3 border-t border-slate-300">
+                    <p className="text-gray-900 font-medium text-xs">Score: {program.score}</p>
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
         </div>
