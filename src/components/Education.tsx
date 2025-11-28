@@ -54,12 +54,12 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-gray-300 pb-2">Certifications</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">Certifications</h3>
         <div className="space-y-3 mb-12">
           {certifications.map((certification, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
+              className="flex items-start gap-3 p-4 bg-slate-50 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
             >
               <Shield className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{certification}</p>
@@ -67,12 +67,12 @@ export default function Education() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-gray-300 pb-2">Achievements</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">Achievements</h3>
         <div className="space-y-3">
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
+              className="flex items-start gap-3 p-4 bg-slate-50 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
             >
               <Trophy className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{achievement}</p>

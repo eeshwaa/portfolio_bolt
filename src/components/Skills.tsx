@@ -13,15 +13,15 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="py-16 px-6 bg-white border-b border-gray-200">
+    <section className="py-16 px-6 bg-slate-50 border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Areas of Expertise</h2>
-        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
         <div className="grid md:grid-cols-2 gap-3">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-gray-50 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
+              className="flex items-start gap-3 p-4 bg-white border border-slate-300 hover:bg-amber-50 hover:border-amber-600 transition-all duration-300"
             >
               <Scale className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <span className="text-gray-900 text-sm font-medium">{skill}</span>

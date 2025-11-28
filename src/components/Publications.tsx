@@ -33,15 +33,15 @@ const internships = [
 
 export default function Publications() {
   return (
-    <section id="publications" className="py-16 px-6 bg-gray-50 border-b border-gray-200">
+    <section id="publications" className="py-16 px-6 bg-slate-50 border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Publications & Research</h2>
-        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
         <div className="space-y-4 mb-12">
           {publications.map((pub, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-300 p-5 hover:border-black transition-all duration-300 shadow-sm"
+              className="bg-white border border-slate-300 p-5 hover:border-amber-600 transition-all duration-300 shadow-sm"
             >
               <div className="flex items-start gap-3">
                 <ScrollText className="w-5 h-5 text-black flex-shrink-0 mt-1" />
@@ -54,12 +54,12 @@ export default function Publications() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-gray-300 pb-2">Internships</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2">Internships</h3>
         <div className="grid md:grid-cols-2 gap-3">
           {internships.map((internship, index) => (
             <div
               key={index}
-              className="p-4 bg-white border border-gray-300 hover:border-black transition-all duration-300"
+              className="p-4 bg-white border border-slate-300 hover:border-amber-600 transition-all duration-300"
             >
               <p className="text-gray-900 text-sm font-medium">{internship}</p>
             </div>

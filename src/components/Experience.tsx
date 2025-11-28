@@ -72,13 +72,13 @@ export default function Experience() {
   const otherExperiences = experiences.slice(1);
 
   return (
-    <section id="experience" className="py-16 px-6 bg-gray-50 border-b border-gray-200">
+    <section id="experience" className="py-16 px-6 bg-white border-b border-slate-200">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Professional Experience</h2>
-        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
 
         <div className="mb-12">
-          <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-gray-300 pb-2">Business Projects</h3>
+          <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2">Business Projects</h3>
           <div
             key="project"
             className="bg-white border border-gray-300 p-6 shadow-sm"
@@ -102,7 +102,7 @@ export default function Experience() {
           </div>
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-gray-300 pb-2">Employment History</h3>
+        <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-amber-200 pb-2">Employment History</h3>
         <div className="space-y-6">
           {otherExperiences.map((exp, index) => (
             <div
