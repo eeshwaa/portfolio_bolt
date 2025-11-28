@@ -57,7 +57,7 @@ const experiences = [
   },
   {
     title: 'Legal Intern',
-    company: 'WhatAboutLaw PC',
+    company: 'WhatAboutLaw PC - CANADA',
     period: '2024',
     highlights: [
       'Assisted in drafting Judicial Review applications, Memoranda of Fact and Law, and Applicant Replies before the Federal Court',
