@@ -1,4 +1,4 @@
-import { GraduationCap, Award } from 'lucide-react';
+import { GraduationCap, Award, BadgeCheck } from 'lucide-react';
 
 const education = [
   {
@@ -17,6 +17,10 @@ const education = [
     institution: 'Humber College, Canada',
     period: '2025 - Present'
   }
+];
+
+const certifications = [
+  'Completed SafeTalk Certification'
 ];
 
 const achievements = [
@@ -45,6 +49,19 @@ export default function Education() {
                   <p className="text-gray-900 font-semibold text-sm">{edu.highlight}</p>
                 </div>
               )}
+            </div>
+          ))}
+        </div>
+
+        <h2 className="text-4xl font-bold text-black mb-12 text-center">Certifications</h2>
+        <div className="space-y-4 mb-16">
+          {certifications.map((certification, index) => (
+            <div
+              key={index}
+              className="flex items-start gap-4 p-4 bg-white rounded-lg border border-gray-200 hover:border-black transition-all duration-300"
+            >
+              <BadgeCheck className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+              <p className="text-gray-900 text-lg">{certification}</p>
             </div>
           ))}
         </div>
