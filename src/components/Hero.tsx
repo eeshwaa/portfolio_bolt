@@ -1,13 +1,8 @@
-import { Gavel } from 'lucide-react';
-
 export default function Hero() {
   return (
     <section className="relative bg-white text-black py-20 px-6 border-b border-gray-200">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center mb-6">
-            <Gavel className="w-12 h-12 text-black" />
-          </div>
           <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3 tracking-tight whitespace-nowrap">
             EESHWAA CHOLA DEVAN GEETHA
           </h1>
