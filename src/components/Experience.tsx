@@ -72,7 +72,7 @@ export default function Experience() {
   const otherExperiences = experiences.slice(1);
 
   return (
-    <section id="experience" className="py-16 px-6 bg-white border-b border-slate-200">
+    <section id="experience" className="py-16 px-6 bg-transparent border-b border-slate-200/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Professional Experience</h2>
         <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
@@ -107,7 +107,7 @@ export default function Experience() {
           {otherExperiences.map((exp, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-300 p-6 shadow-sm"
+              className="bg-white/80 backdrop-blur-sm border border-slate-300/50 p-6 shadow-lg rounded-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-start gap-3 mb-4">
                 <Building2 className="w-5 h-5 text-black flex-shrink-0 mt-1" />

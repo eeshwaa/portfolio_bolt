@@ -41,15 +41,15 @@ const achievements = [
 
 export default function Education() {
   return (
-    <section id="education" className="py-16 px-6 bg-white border-b border-gray-200">
+    <section id="education" className="py-16 px-6 bg-transparent border-b border-slate-200/50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Education & Qualifications</h2>
-        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10"></div>
         <div className="grid md:grid-cols-3 gap-4 mb-12">
           {education.map((edu, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-5 border border-gray-300 hover:bg-white hover:border-black transition-all duration-300"
+              className="bg-white/70 backdrop-blur-sm p-5 border border-slate-300/50 hover:bg-white hover:border-amber-600 hover:shadow-md transition-all duration-300 rounded-lg"
             >
               <BookOpen className="w-8 h-8 text-black mb-3" />
               <h3 className="text-base font-semibold text-black mb-2">{edu.degree}</h3>
@@ -69,7 +69,7 @@ export default function Education() {
           {internationalMobility.map((program, index) => (
             <div
               key={index}
-              className="bg-slate-50 p-5 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
+              className="bg-white/70 backdrop-blur-sm p-5 border border-slate-300/50 hover:bg-white hover:border-amber-600 hover:shadow-md transition-all duration-300 rounded-lg"
             >
               <div className="flex items-start gap-3">
                 <Globe className="w-6 h-6 text-black flex-shrink-0 mt-1" />
@@ -92,7 +92,7 @@ export default function Education() {
           {certifications.map((certification, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-slate-50 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
+              className="flex items-start gap-3 p-4 bg-white/70 backdrop-blur-sm border border-slate-300/50 hover:bg-white hover:border-amber-600 hover:shadow-md transition-all duration-300 rounded-md"
             >
               <Shield className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{certification}</p>
@@ -105,7 +105,7 @@ export default function Education() {
           {achievements.map((achievement, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-slate-50 border border-slate-300 hover:bg-white hover:border-amber-600 transition-all duration-300"
+              className="flex items-start gap-3 p-4 bg-white/70 backdrop-blur-sm border border-slate-300/50 hover:bg-white hover:border-amber-600 hover:shadow-md transition-all duration-300 rounded-md"
             >
               <Trophy className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
               <p className="text-gray-900 text-sm font-medium">{achievement}</p>
