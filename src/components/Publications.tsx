@@ -33,34 +33,35 @@ const internships = [
 
 export default function Publications() {
   return (
-    <section id="publications" className="py-20 px-6 bg-white">
+    <section id="publications" className="py-16 px-6 bg-gray-50 border-b border-gray-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-black mb-12 text-center">Published Papers</h2>
-        <div className="space-y-6 mb-16">
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Publications & Research</h2>
+        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
+        <div className="space-y-4 mb-12">
           {publications.map((pub, index) => (
             <div
               key={index}
-              className="border-l-4 border-gray-300 pl-6 py-4 hover:border-black hover:bg-gray-50 transition-all duration-300 rounded-r-lg"
+              className="bg-white border border-gray-300 p-5 hover:border-black transition-all duration-300 shadow-sm"
             >
               <div className="flex items-start gap-3">
-                <FileText className="w-6 h-6 text-gray-700 flex-shrink-0 mt-1" />
+                <FileText className="w-5 h-5 text-black flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-xl font-bold text-black mb-2">{pub.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{pub.venue}</p>
+                  <h3 className="text-base font-semibold text-black mb-2">{pub.title}</h3>
+                  <p className="text-gray-700 text-sm leading-relaxed">{pub.venue}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <h2 className="text-4xl font-bold text-black mb-12 text-center">Internships</h2>
-        <div className="grid md:grid-cols-2 gap-4">
+        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-gray-300 pb-2">Internships</h3>
+        <div className="grid md:grid-cols-2 gap-3">
           {internships.map((internship, index) => (
             <div
               key={index}
-              className="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-black hover:bg-white transition-all duration-300"
+              className="p-4 bg-white border border-gray-300 hover:border-black transition-all duration-300"
             >
-              <p className="text-gray-900 font-medium">{internship}</p>
+              <p className="text-gray-900 text-sm font-medium">{internship}</p>
             </div>
           ))}
         </div>

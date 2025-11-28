@@ -72,28 +72,29 @@ export default function Experience() {
   const otherExperiences = experiences.slice(1);
 
   return (
-    <section id="experience" className="py-20 px-6 bg-white">
+    <section id="experience" className="py-16 px-6 bg-gray-50 border-b border-gray-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-black mb-12 text-center">Professional Experience</h2>
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center">Professional Experience</h2>
+        <div className="h-px w-24 bg-black mx-auto mb-10"></div>
 
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-black mb-8">Business Projects</h3>
+        <div className="mb-12">
+          <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-gray-300 pb-2">Business Projects</h3>
           <div
             key="project"
-            className="border-l-4 border-black pl-6 py-4 hover:bg-gray-50 transition-colors duration-300 rounded-r-lg"
+            className="bg-white border border-gray-300 p-6 shadow-sm"
           >
-            <div className="flex items-start gap-3 mb-3">
-              <Briefcase className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+            <div className="flex items-start gap-3 mb-4">
+              <Briefcase className="w-5 h-5 text-black flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-2xl font-bold text-black">{businessProject.title}</h3>
-                <p className="text-lg text-gray-800 font-semibold">{businessProject.company}</p>
-                <p className="text-sm text-gray-600 mt-1">{businessProject.period}</p>
+                <h3 className="text-lg font-semibold text-black">{businessProject.title}</h3>
+                <p className="text-base text-gray-700 font-medium">{businessProject.company}</p>
+                <p className="text-xs text-gray-500 mt-1 uppercase tracking-wide">{businessProject.period}</p>
               </div>
             </div>
-            <ul className="space-y-2 mt-4">
+            <ul className="space-y-2 mt-4 border-t border-gray-200 pt-4">
               {businessProject.highlights.map((highlight, idx) => (
-                <li key={idx} className="text-gray-700 leading-relaxed pl-4">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mr-3"></span>
+                <li key={idx} className="text-gray-700 text-sm leading-relaxed pl-4">
+                  <span className="inline-block w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
                   {highlight}
                 </li>
               ))}
@@ -101,25 +102,25 @@ export default function Experience() {
           </div>
         </div>
 
-        <h3 className="text-3xl font-bold text-black mb-8">Employment History</h3>
-        <div className="space-y-8">
+        <h3 className="text-xl font-serif font-semibold text-black mb-6 border-b border-gray-300 pb-2">Employment History</h3>
+        <div className="space-y-6">
           {otherExperiences.map((exp, index) => (
             <div
               key={index}
-              className="border-l-4 border-black pl-6 py-4 hover:bg-gray-50 transition-colors duration-300 rounded-r-lg"
+              className="bg-white border border-gray-300 p-6 shadow-sm"
             >
-              <div className="flex items-start gap-3 mb-3">
-                <Briefcase className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+              <div className="flex items-start gap-3 mb-4">
+                <Briefcase className="w-5 h-5 text-black flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-2xl font-bold text-black">{exp.title}</h3>
-                  <p className="text-lg text-gray-800 font-semibold">{exp.company}</p>
-                  <p className="text-sm text-gray-600 mt-1">{exp.period}</p>
+                  <h3 className="text-lg font-semibold text-black">{exp.title}</h3>
+                  <p className="text-base text-gray-700 font-medium">{exp.company}</p>
+                  <p className="text-xs text-gray-500 mt-1 uppercase tracking-wide">{exp.period}</p>
                 </div>
               </div>
-              <ul className="space-y-2 mt-4">
+              <ul className="space-y-2 mt-4 border-t border-gray-200 pt-4">
                 {exp.highlights.map((highlight, idx) => (
-                  <li key={idx} className="text-gray-700 leading-relaxed pl-4">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mr-3"></span>
+                  <li key={idx} className="text-gray-700 text-sm leading-relaxed pl-4">
+                    <span className="inline-block w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
                     {highlight}
                   </li>
                 ))}

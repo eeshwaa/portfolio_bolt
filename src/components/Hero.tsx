@@ -2,32 +2,38 @@ import { Scale } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative bg-white text-black py-24 px-6">
-      <div className="max-w-6xl mx-auto">
-        <div className="flex items-center justify-center mb-6">
-          <Scale className="w-16 h-16 text-black" />
+    <section className="relative bg-white text-black py-20 px-6 border-b border-gray-200">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-8">
+          <div className="flex items-center justify-center mb-6">
+            <Scale className="w-12 h-12 text-black" />
+          </div>
+          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-3 tracking-tight">
+            EESHWAA CHOLA DEVANGEETHA
+          </h1>
+          <div className="h-px w-32 bg-black mx-auto mb-4"></div>
+          <p className="text-lg md:text-xl text-gray-600 font-light uppercase tracking-widest">
+            Legal Professional
+          </p>
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold text-center mb-4 tracking-tight">
-          EESHWAA.C.G
-        </h1>
-        <p className="text-xl md:text-2xl text-center text-gray-700 font-light tracking-wide mb-12">
-          Legal Professional
-        </p>
 
-        <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-600">
-          <a href="#contact" className="hover:text-black transition-colors duration-300">
-            Contact
+        <nav className="flex flex-wrap justify-center gap-6 text-xs uppercase tracking-wider font-medium text-gray-700">
+          <a href="#about" className="hover:text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1">
+            Profile
           </a>
-          <a href="#experience" className="hover:text-black transition-colors duration-300">
+          <a href="#experience" className="hover:text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1">
             Experience
           </a>
-          <a href="#education" className="hover:text-black transition-colors duration-300">
+          <a href="#education" className="hover:text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1">
             Education
           </a>
-          <a href="#publications" className="hover:text-black transition-colors duration-300">
+          <a href="#publications" className="hover:text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1">
             Publications
           </a>
-        </div>
+          <a href="#contact" className="hover:text-black border-b border-transparent hover:border-black transition-all duration-300 pb-1">
+            Contact
+          </a>
+        </nav>
       </div>
     </section>
   );
