@@ -8,8 +8,8 @@ export default function Hero() {
           <div className="flex items-center justify-center mb-6">
             <Scale className="w-12 h-12 text-black" />
           </div>
-          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-3 tracking-tight">
-            EESHWAA CHOLA DEVANGEETHA
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3 tracking-tight whitespace-nowrap">
+            EESHWAA CHOLA DEVAN GEETHA
           </h1>
           <div className="h-px w-32 bg-black mx-auto mb-4"></div>
           <p className="text-lg md:text-xl text-gray-600 font-light uppercase tracking-widest">
