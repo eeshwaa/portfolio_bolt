@@ -54,7 +54,8 @@ export default function Publications() {
           ))}
         </div>
 
-        <h3 className="text-xl font-serif font-semibold text-black mb-4 border-b border-amber-200 pb-2 animate-fade-in-up animate-delay-200">Internships</h3>
+        <h2 className="text-3xl font-serif font-bold text-black mb-2 text-center animate-fade-in-up">Internships</h2>
+        <div className="h-px w-24 bg-amber-600 mx-auto mb-10 animate-fade-in-up animate-delay-100"></div>
         <div className="grid md:grid-cols-2 gap-3 animate-fade-in animate-delay-300">
           {internships.map((internship, index) => (
             <div
