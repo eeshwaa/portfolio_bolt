@@ -35,32 +35,32 @@ export default function Publications() {
   return (
     <section id="publications" className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Published Papers</h2>
+        <h2 className="text-4xl font-bold text-black mb-12 text-center">Published Papers</h2>
         <div className="space-y-6 mb-16">
           {publications.map((pub, index) => (
             <div
               key={index}
-              className="border-l-4 border-slate-300 pl-6 py-4 hover:border-amber-600 hover:bg-slate-50 transition-all duration-300 rounded-r-lg"
+              className="border-l-4 border-gray-300 pl-6 py-4 hover:border-black hover:bg-gray-50 transition-all duration-300 rounded-r-lg"
             >
               <div className="flex items-start gap-3">
-                <FileText className="w-6 h-6 text-slate-600 flex-shrink-0 mt-1" />
+                <FileText className="w-6 h-6 text-gray-700 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">{pub.title}</h3>
-                  <p className="text-slate-600 leading-relaxed">{pub.venue}</p>
+                  <h3 className="text-xl font-bold text-black mb-2">{pub.title}</h3>
+                  <p className="text-gray-700 leading-relaxed">{pub.venue}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Internships</h2>
+        <h2 className="text-4xl font-bold text-black mb-12 text-center">Internships</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {internships.map((internship, index) => (
             <div
               key={index}
-              className="p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-amber-600 hover:shadow-md transition-all duration-300"
+              className="p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-black hover:bg-white transition-all duration-300"
             >
-              <p className="text-slate-800 font-medium">{internship}</p>
+              <p className="text-gray-900 font-medium">{internship}</p>
             </div>
           ))}
         </div>

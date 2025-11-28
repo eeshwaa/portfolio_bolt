@@ -13,17 +13,17 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="py-20 px-6 bg-slate-50">
+    <section className="py-20 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Expertise</h2>
+        <h2 className="text-4xl font-bold text-black mb-12 text-center">Expertise</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="flex items-start gap-3 p-4 bg-white rounded-lg border border-gray-200 hover:border-black transition-all duration-300"
             >
-              <CheckCircle2 className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
-              <span className="text-slate-800 text-lg">{skill}</span>
+              <CheckCircle2 className="w-6 h-6 text-black flex-shrink-0 mt-1" />
+              <span className="text-gray-900 text-lg">{skill}</span>
             </div>
           ))}
         </div>
